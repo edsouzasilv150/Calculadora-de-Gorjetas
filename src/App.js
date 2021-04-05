@@ -5,7 +5,8 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   margin: auto;
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   height: 400px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -29,7 +30,8 @@ const Paragrafo = styled.p`
 
 const Input = styled.input`
   margin: auto;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 30px;
   font-size: 16px;
   padding: 10px;
